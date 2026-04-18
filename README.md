@@ -1,27 +1,24 @@
-# Trabalho Prático 05 (Semana 06)
+# Trabalho Prático - Semana 04
 
-Nessa atividade, como sempre, vamos evoluir o que foi feito na semana anterior. Fique atento para fazer o projeto da semana anterior e dar sequência nessa jornada.
+Dessa vez, vamos escolher uma proposta de projeto para trabalhar.
 
-No trabalho dessa semana vamos alterar o projeto para que a responsividade da home-page seja feita, agora, com o framework Bootstrap.
+Nessa atividade, você deverá montar a página inicial do projeto escolhido, a organização do HTML aplicando semântica correta e uso aprimorado do CSS. Leia o enunciado completo no Canvas para mais detalhes.
 
-**IMPORTANTE 1:** Estaremos utilizando uma ferramenta de verificação automática para te ajudar a identificar se você conseguiu fazer o que é necessário. Essa ferramenta é o autograder e todas as vezes que você submeter o repositório ao GitHub via **`git push`**, será gerado um arquivo **`relatorio.md`** na raiz do seu repositório com detalhes da correção. Para continuar trabalhando no seu computado, será importante realizar o comando **`git pull origin main`** para atualizar sua versão local com o relatório gerado no GitHub. **FIQUE ATENTO**
-
-**IMPORTANTE 2:** Você deve alterar apenas os arquivos **`README.md`**, **`index.html`** e **`css/styles.css`**, podendo incluir outros arquivos como imagens na pasta **`images`**, caso necessário. Deixe todos os demais arquivos e pastas desse repositório inalterados. **PRESTE MUITA ATENÇÃO NISSO.**
+**IMPORTANTE:** Você deve trabalhar e alterar apenas arquivos dentro da pasta **`public`**. Deixe todos os demais arquivos e pastas desse repositório inalterados. **PRESTE MUITA ATENÇÃO NISSO.**
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
-
-## Print da versão responsiva com Bootstrap [DESKTOP]
-
-<<  COLOQUE A IMAGEM AQUI >>
-
-## Print da versão responsiva com Bootstrap [MOBILE] (*)
-
-<<  COLOQUE A IMAGEM AQUI >>
+- Nome: Henrique Shevchenko
+- Matricula: 915990
+- Proposta de projeto escolhida: Autores e suas obras
+- Breve descrição sobre seu projeto: Um site dedicado a mangakas e suas obras
 
 
-(*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
+## Print do(s) wireframe(s) criado
+![wireframe](./public/images/wireframe.png)
+
+## Print da home-page criada
+
+![site finalizado](./public/images/autorSite.png)
+
+![site finalizado](./public/images/obrasSite.png)

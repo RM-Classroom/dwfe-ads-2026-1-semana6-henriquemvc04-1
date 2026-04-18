@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(180, 193, 206);
+}
+
+/*  Logo da página*/
+.logoPagina {
+    height: 25%;
+    width: 10%;
+    padding: 0.1%;
+}
+
+header {
+    display: flex;
+}
+
+p{
+    font-size: 17px;
+}
+
+/*  Pesquisa da página*/
+input {
+    border-radius: 8px;
+    width: 80%;
+    text-align: center;
+    height: 35px;
+    margin: 40px;
+}
+
+
+.autor {
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+    gap: 0.1%;
+}
+
+/* Foto do Autor*/
+.fotoAutor {
+    padding: 1%;
+    height: 35%;
+    width: auto;
+    border-radius: 40px;
+}
+/* Informacoes do Autor*/
+.textoAutor {
+    border: 2px solid none;
+    border-radius: 20px;
+    padding: 2%;
+    text-align: justify;
+    background-color: black;
+    width: auto;
+    color: aliceblue;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(125, 125, 216);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(10, 10, 10);
+    padding: 1%;
+}
+
+/* Obras do Autor*/
+
+.manga{
+    text-align: center;
+}
+
+.mangasAutor{
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+    width: 1000px;
+    gap: 15%;
+}
+
+.capaMangas1{
+    height: 400px;
+    width: 290px;
+}
+
+.textoObras{
+    padding: 2%;
+    text-align: justify;
+    color: aliceblue;
+    width: 85%;
+    margin: auto;
+}
+
+article{
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 4%;
+    background-color: rgb(13, 14, 14);
+}
+
+/* Footer do site*/
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1%;
+    margin-top:2% ;
+}
+
