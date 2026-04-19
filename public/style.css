@@ -1,110 +1,117 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(180, 193, 206);
+    background-color: rgb(156, 179, 202);
 }
 
-/*  Logo da página*/
-.logoPagina {
-    height: 25%;
-    width: 10%;
-    padding: 0.1%;
-}
-
-header {
+/* HEADER */
+.topoPagina {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    padding: 10px 20px;
 }
 
-p{
+/* LOGO */
+.logoPagina {
+    height: 150px;
+    width: auto;
+}
+
+/* INPUT */
+.texto {
+    flex: 1;
+    min-width: 200px;
+    max-width: 500px;
+
+    height: 40px;
+    margin-left: 20px;
+
+    border-radius: 10px;
+    border: none;
+    padding: 0 15px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .topoPagina {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logoPagina {
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: 0;
+        padding: 5px;
+    }
+}
+
+
+/* TEXTO GERAL */
+p {
     font-size: 17px;
 }
 
-/*  Pesquisa da página*/
-input {
-    border-radius: 8px;
-    width: 80%;
-    text-align: center;
-    height: 35px;
-    margin: 40px;
-}
-
-
-.autor {
-    display: flex;
-    padding-left: 8%;
-    padding-right: 8%;
-    gap: 0.1%;
-}
-
-/* Foto do Autor*/
+/* Foto do Autor */
 .fotoAutor {
-    padding: 1%;
-    height: 35%;
-    width: auto;
-    border-radius: 40px;
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    border-radius: 15px;
 }
-/* Informacoes do Autor*/
+
+/* Texto do Autor */
 .textoAutor {
-    border: 2px solid none;
-    border-radius: 20px;
-    padding: 2%;
-    text-align: justify;
-    background-color: black;
-    width: auto;
-    color: aliceblue;
-}
-
-.link {
+    background-color: #0d0d0d;
+    color: #f1f1f1;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 2px;
     text-decoration: none;
-    color: rgb(125, 125, 216);
-}
-
-h1 {
-    text-align: center;
-    color: rgb(10, 10, 10);
-    padding: 1%;
-}
-
-/* Obras do Autor*/
-
-.manga{
-    text-align: center;
-}
-
-.mangasAutor{
-    display: flex;
-    padding-left: 8%;
-    padding-right: 8%;
-    width: 1000px;
-    gap: 15%;
-}
-
-.capaMangas1{
-    height: 400px;
-    width: 290px;
-}
-
-.textoObras{
-    padding: 2%;
     text-align: justify;
-    color: aliceblue;
-    width: 85%;
-    margin: auto;
 }
 
-article{
-    border: 2px solid black;
-    border-radius: 4px;
-    margin-top: 4%;
-    background-color: rgb(13, 14, 14);
+a {
+    text-decoration: none;
 }
 
-/* Footer do site*/
-footer{
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.row {
+    align-items: center;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-img-top {
+    height: 500px; 
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER */
+footer {
     background-color: black;
     text-align: center;
     color: white;
-    padding: 1%;
-    margin-top:2% ;
+    padding: 10px;
+    margin-top: 20px;
 }
-
